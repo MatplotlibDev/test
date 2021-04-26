@@ -1,0 +1,11 @@
+first: git init
+second: git add <file>
+third: git commit -m "your message here"
+fourth: git config --global user.name "Your name"
+fifth: git config --global user.email "Your email"
+# Now set the remote for your remote repo
+sixth: git push -u origin master
+OR
+git push origin <Your branch>
+seventh:git pull origin master
+
